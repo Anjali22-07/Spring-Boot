@@ -1,0 +1,43 @@
+## API(Application Programming Interface)
+
+It is a set of rules that allows programs to talk with each other. The developer creates the API on the server and allows the client to talk.
+
+In layman terms, In computers- an API works like a Waiter
+You(the app/client) makes a request.
+The API takes the request to another program or server(the "kitchen").
+That server does the work and gives a result.
+The API brings that result back to you.
+
+The response is usually sent in XML or JSON format.
+
+### REST(Representational State Transfer)
+
+A set of constraints to be used for creating web Servlets(API).
+It is a like a messenger b/w you(user/app) and the server.
+
+### Important Methods
+
+GET- to get resource. It reads a resource.
+PUT- updates an existing resource.
+POST- Creates a new resource.
+DELETE- It deletes a resource.
+
+
+### Example:
+
+POST/users- It create a User.
+GET/users/{id}- It retrieves the detail of a user.
+GET/users- It retrieves the details of all users.
+DELETE/users- It deletes all users.
+DELETE/users/{id}- It deletes a user.
+GET/users/{id}/Posts/post- It retrieves the detail of a specific post.
+POST/users/{id}/posts- It creates a post of the user.
+
+
+### HTTP: RESPONSE CODES
+
+⦁	404- Response not found.
+⦁	200- Success
+⦁	201- Created.
+⦁	401- unauthorized
+⦁	500- Server Runtime Error
